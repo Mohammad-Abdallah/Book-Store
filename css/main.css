@@ -20,7 +20,7 @@ body {
   .type-text{
     overflow: hidden; 
     white-space: nowrap; 
-    animation: typing 4s forwards infinite;
+    animation: typing 3s forwards infinite ;
   }
 }
 
@@ -278,6 +278,10 @@ ul {
   
   h1:last-child {
     color: var(--main-color);
+  }
+
+  .type-text {
+    border-right: 5px solid;
   }
 
   p {
@@ -884,7 +888,7 @@ ul {
     width: 0%;
   }
   to {
-    width: 100%;
+    width: 300px;
   }
 }
 
