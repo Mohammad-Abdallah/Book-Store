@@ -17,6 +17,11 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  .type-text{
+    overflow: hidden; 
+    white-space: nowrap; 
+    animation: typing 4s forwards infinite;
+  }
 }
 
 body::-webkit-scrollbar {
@@ -270,7 +275,7 @@ ul {
     font-size: 2.5em;
     margin: 0;
   }
-
+  
   h1:last-child {
     color: var(--main-color);
   }
@@ -504,7 +509,7 @@ ul {
 .arrivals {
   h1 {
     text-align: center;
-    margin: 80px auto 40px;
+    margin: 150px auto 30px;
   }
 
   .container {
@@ -592,7 +597,7 @@ ul {
 .reviews {
   h1 {
     text-align: center;
-    margin: 120px auto 50px;
+    margin: 140px auto 50px;
   }
 
   .container {
@@ -690,7 +695,9 @@ ul {
 .blog {
   h1 {
     text-align: center;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
+    margin: 30px auto 30px;
+    
   }
 
   .container {
@@ -872,6 +879,14 @@ ul {
 /* End Footer */
 
 /* Start animation */
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
 
 @keyframes zoom-in-out {
   50% {
