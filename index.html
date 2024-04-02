@@ -16,6 +16,7 @@
         <img src="image/logo.png" alt="Book-logo" />
       </div>
       <div class="links">
+        <i class="fas fa-bars list"></i>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -26,10 +27,12 @@
         </ul>
       </div>
       <div class="search">
-        <i class="fa fa-search"></i>
+        <div class="search-text">
+          <input type="text" class="text" placeholder="Search for book" maxlength="20" >
+          <i class="fa fa-search"></i>
+        </div>
         <input type="checkbox" id="heart" class="heart-checkbox">
         <label for="heart" class="heart-icon"><i class="fas fa-heart"></i></label>
-        
       </div>
     </div>
 
@@ -92,7 +95,7 @@
           <img src="image/about.png" alt="about image" />
         </div>
         <div class="aboutContent">
-          <h1>About Us</h1>
+          <h1 class="blinking-header">About Us</h1>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
             cumque atque dolor corporis architecto. Voluptate expedita molestias
@@ -110,7 +113,7 @@
 
     <!-- Start Featured Books-->
     <div class="featured" id="featured">
-      <h1>Featured Books</h1>
+      <h1 class="blinking-header">Featured Books</h1>
       <div class="container">
         <div class="book">
           <img src="./image/book_1.jpg" alt="featured book1" />
@@ -185,7 +188,7 @@
           <a href="#">Learn More</a>
         </div>
         <div class="book">
-          <img src="./image/book_7.png" alt="featured book7" class="smallimg"/>
+          <img src="./image/book_7.png" alt="featured book7" class="smallImg"/>
           <h4>Featured Books</h4>
           <p>John Deo</p>
           <div class="type">
@@ -197,7 +200,7 @@
           <a href="#">Learn More</a>
         </div>
         <div class="book">
-          <img src="./image/book_8.png" alt="featured book8" class="smallimg"/>
+          <img src="./image/book_8.png" alt="featured book8" class="smallImg"/>
           <h4>Featured Books</h4>
           <p>John Deo</p>
           <div class="type">
@@ -221,7 +224,7 @@
           <a href="#">Learn More</a>
         </div>
         <div class="book">
-          <img src="./image/book_10.png" alt="featured book10" class="smallimg"/>
+          <img src="./image/book_10.png" alt="featured book10" class="smallImg"/>
           <h4>Featured Books</h4>
           <p>John Deo</p>
           <div class="type">
@@ -245,7 +248,7 @@
           <a href="#">Learn More</a>
         </div>
         <div class="book">
-          <img src="./image/book_12.png" alt="featured book12" class="smallimg"/>
+          <img src="./image/book_12.png" alt="featured book12" class="smallImg"/>
           <h4>Featured Books</h4>
           <p>John Deo</p>
           <div class="type">
@@ -257,7 +260,7 @@
           <a href="#">Learn More</a>
         </div>
         <div class="book">
-          <img src="./image/book_13.png" alt="featured book13" class="smallimg"/>
+          <img src="./image/book_13.png" alt="featured book13" class="smallImg"/>
           <h4>Featured Books</h4>
           <p>John Deo</p>
           <div class="type">
@@ -269,7 +272,7 @@
           <a href="#">Learn More</a>
         </div>
         <div class="book">
-          <img src="./image/book_14.png" alt="featured book14" class="smallimg"/>
+          <img src="./image/book_14.png" alt="featured book14" class="smallImg"/>
           <h4>Featured Books</h4>
           <p>John Deo</p>
           <div class="type">
@@ -281,7 +284,7 @@
           <a href="#">Learn More</a>
         </div>
         <div class="book">
-          <img src="./image/book_15.png" alt="featured book15" class="smallimg"/>
+          <img src="./image/book_15.png" alt="featured book15" class="smallImg"/>
           <h4>Featured Books</h4>
           <p>John Deo</p>
           <div class="type">
@@ -298,11 +301,11 @@
 
     <!-- Start arrivals -->
     <div class="arrivals" id="arrivals">
-      <h1>New Arrivals</h1>
+      <h1 class="blinking-header">New Arrivals</h1>
       <div class="container">
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
             <img src="image/arrival_1.jpg" alt="arrival image1" />
           </div>
           <h4>New Arrivals</h4>
@@ -317,7 +320,7 @@
         </div>
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
           <img src="image/arrival_2.jpg" alt="arrival image2" />
         </div>
           <h4>New Arrivals</h4>
@@ -332,7 +335,7 @@
         </div>
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
             <img src="image/arrival_3.jpg" alt="arrival image3" />
           </div>
           <h4>New Arrivals</h4>
@@ -347,7 +350,7 @@
         </div>
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
             <img src="image/arrival_4.jpg" alt="arrival image4" />
           </div>
           <h4>New Arrivals</h4>
@@ -362,7 +365,7 @@
         </div>
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
             <img src="image/arrival_5.jpg" alt="arrival image5" />
           </div>
           <h4>New Arrivals</h4>
@@ -377,7 +380,7 @@
         </div>
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
             <img src="image/arrival_6.jpg" alt="arrival image6" />
           </div>
           <h4>New Arrivals</h4>
@@ -392,7 +395,7 @@
         </div>
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
             <img src="image/arrival_7.jpg" alt="arrival image7" />
           </div>
           <h4>New Arrivals</h4>
@@ -407,7 +410,7 @@
         </div>
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
             <img src="image/arrival_8.webp" alt="arrival image8" />
           </div>
           <h4>New Arrivals</h4>
@@ -422,7 +425,7 @@
         </div>
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
             <img src="image/arrival_9.jpg" alt="arrival image9" />
           </div>
           <h4>New Arrivals</h4>
@@ -437,7 +440,7 @@
         </div>
 
         <div class="arrival">
-          <div class="arrivalimage">
+          <div class="arrivalImage">
             <img src="image/arrival_10.jpg" alt="arrival image10" />
           </div>
           <h4>New Arrivals</h4>
@@ -457,12 +460,12 @@
 
     <!-- Start Reviews -->
     <div class="reviews" id="reviews">
-      <h1>Reviews</h1>
+      <h1 class="blinking-header">Reviews</h1>
       <div class="container">
 
         <div class="card">
           <div class="image">
-            <img src="image/review_1.png" alt="review image1" />
+            <img src="image/review_1.png" alt="review image1" class="rotate-image" />
           </div>
           <div class="content">
             <h3>John Deo</h3>
@@ -484,7 +487,7 @@
 
         <div class="card">
           <div class="image">
-            <img src="image/review_2.png" alt="review image2" />
+            <img src="image/review_2.png" alt="review image2" class="rotate-image"/>
           </div>
           <div class="content">
             <h3>John Deo</h3>
@@ -506,7 +509,7 @@
 
         <div class="card">
           <div class="image">
-            <img src="image/review_3.png" alt="review image3" />
+            <img src="image/review_3.png" alt="review image3" class="rotate-image"/>
           </div>
           <div class="content">
             <h3>John Deo</h3>
@@ -528,7 +531,7 @@
 
         <div class="card">
           <div class="image">
-            <img src="image/review_4.png" alt="review image4" />
+            <img src="image/review_4.png" alt="review image4" class="rotate-image"/>
           </div>
           <div class="content">
             <h3>John Deo</h3>
@@ -560,12 +563,12 @@
 
     <!-- Start Our Blog -->
     <div class="blog" id="blog">
-      <h1>Our Blog</h1>
+      <h1 class="blinking-header">Our Blog</h1>
       <div class="container">
 
         <div class="card">
           <div class="image">
-            <img src="image/blog_1.jpg" alt="Bloger image1" />
+            <img src="image/blog_1.jpg" alt="Bloger image1"  />
           </div>
           <div class="content">
             <h2>Bloger</h2>
@@ -577,7 +580,8 @@
             </p>
             <div class="icons">
               <i class='fas fa-calendar-alt'></i>
-              <i class="fas fa-heart"></i>
+              <input type="checkbox" id="blogHeart1" class="heart-checkbox1">
+              <label for="blogHeart1" class="heart-icon1"> <i class="fas fa-heart"></i> </label>
             </div>
           </div>
         </div>
@@ -596,7 +600,8 @@
             </p>
             <div class="icons">
               <i class='fas fa-calendar-alt'></i>
-              <i class="fas fa-heart"></i>
+              <input type="checkbox" id="blogHeart2" class="heart-checkbox2">
+              <label for="blogHeart2" class="heart-icon2"> <i class="fas fa-heart"></i> </label>
             </div>
           </div>
         </div>
@@ -615,7 +620,8 @@
             </p>
             <div class="icons">
               <i class='fas fa-calendar-alt'></i>
-              <i class="fas fa-heart"></i>
+              <input type="checkbox" id="blogHeart3" class="heart-checkbox3">
+              <label for="blogHeart3" class="heart-icon3"> <i class="fas fa-heart"></i> </label>
             </div>
           </div>
         </div>
@@ -666,10 +672,10 @@
 
         <div class="socialMedia">
           <h2>Follow Us</h2>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram "></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin "></i>
+          <i class="fab fa-facebook-f facebook"></i>
+          <i class="fab fa-instagram  instagram"></i>
+          <i class="fab fa-twitter twitter"></i>
+          <i class="fab fa-linkedin linkedin"></i>
         </div>
 
         <div class="newsletter">
